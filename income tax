@@ -1,0 +1,40 @@
+#include<iostream.h>
+
+#include<conio.h>
+
+void main;
+
+{
+
+int income,tax;
+
+cout<<"Enter the income of the person:";
+
+cin>>income;
+
+if(income<=150000):
+
+cout<<" no tax to be collected ";
+
+else if(income>=150001 & income <=300000):
+
+tax=income/10;
+
+cout<<"the tax amount is:"<<tax;
+
+else if(income>=300001 & income<=500000):
+
+tax=income/20;
+
+cout<<"the tax amount is:"<<tax;
+
+else:
+
+tax=income/30
+
+cout<<"the tax amount is:";
+
+}
+
+return 0;
+
